@@ -53,11 +53,11 @@ public class ValueLogic {
 
     /**
      * Finds and returns all classes annotated with BaseValue 
-     * in the volgyerdo.value.logic.method package and its subdirectories.
+     * in the objectiveethics.values.logic.method package and its subdirectories.
      */
     private static List<Class<?>> findAnnotatedClasses() {
         List<Class<?>> annotatedClasses = new ArrayList<>();
-        String packageName = "volgyerdo.value.logic.method";
+        String packageName = "objectiveethics.values.logic.method";
         String path = packageName.replace('.', '/');
         try {
             ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
